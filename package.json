@@ -10,7 +10,7 @@
     "build": "npm run clean && tsc",
     "clean": "rm -rf dist",
     "lint": "eslint src --ext .js,.ts --cache --fix",
-    "prepare": "husky install"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@types/jest": "^28.1.6",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
@@ -30,7 +31,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^8.0.1",
+    "jest": "^28.1.3",
     "prettier": "^2.7.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^9.1.1",
     "typescript": "^4.7.4"
   }
 }

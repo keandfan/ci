@@ -1,1 +1,1 @@
-declare const calc: (a: number, b: number) => number;
+declare const calc: (a: number, b: number) => number
